@@ -1,7 +1,14 @@
-[gd_scene format=3 uid="uid://83wxgwhl76iy"]
+[gd_scene load_steps=2 format=3 uid="uid://83wxgwhl76iy"]
+
+[ext_resource type="Texture2D" uid="uid://dnqm1kiuwjfgd" path="res://Assets/Personaje 1 32x32.png" id="1_ig7tw"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Panel" type="Panel" parent="."]
 offset_right = 224.0
 offset_bottom = 167.0
+
+[node name="Personaje132x32" type="Sprite2D" parent="."]
+position = Vector2(98, 108)
+scale = Vector2(0.882813, 0.875)
+texture = ExtResource("1_ig7tw")
